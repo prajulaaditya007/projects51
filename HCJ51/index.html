@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Collect your Snack</title>
+</head>
+<body>
+<div class="screen">
+    <h1>Your favourite snacks are now just floating in space..... <br>
+        Collect your favourite snack</h1>
+    <button class="btn" id="start-btn">Play Game</button>
+</div>
+
+<div class="screen">
+    <h1>What is your "favorite" snack?</h1>
+    <ul class="snacks-list">
+        <li>
+            <button class="choose-snack-btn">
+                <p>Cookie</p>
+                <img src="http://pngimg.com/uploads/cookie/small/cookie_PNG97345.png" alt="cookie">
+            </button>
+        </li>
+        <li>
+            <button class="choose-snack-btn">
+                <p>Dorito</p>
+                <img
+                        src="http://pngimg.com/uploads/doritos/small/doritos_PNG34.png"
+                        alt="Dorito"
+                />
+            </button>
+        </li>
+        <li>
+            <button class="choose-snack-btn">
+                <p>Donut</p>
+                <img
+                        src="http://pngimg.com/uploads/donut/small/donut_PNG97494.png"
+                        alt="Donut"
+                />
+            </button>
+        </li>
+        <li>
+            <button class="choose-snack-btn">
+                <p>Pizza</p>
+                <img
+                        src="http://pngimg.com/uploads/pizza/small/pizza_PNG44083.png"
+                        alt="pizza"
+                />
+            </button>
+        </li>
+    </ul>
+</div>
+
+<div class="screen game-container" id="game-container">
+    <h3 id="time" class="time">Time: 00:00</h3>
+    <h3 id="score" class="score">Score: 0</h3>
+    <h4 id="message" class="message">
+        Are you annnoyed yet? <br>
+        You are playing an impossible game!! <br>
+        You cannot have too much!!
+    </h4>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

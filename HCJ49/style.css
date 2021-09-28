@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://w.wallhaven.cc/full/j5/wallhaven-j5mj9w.png");
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.title {
+  margin: 10px 0 0;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1600px;
+
+}
+
+.container img {
+  object-fit: cover;
+  margin: 10px;
+  height: 500px;
+  width: 300px;
+  max-width: 100%;
+  box-shadow: 0 0 8px;
+}
